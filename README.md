@@ -543,3 +543,4 @@ Bug reports can be filed for the Ruby on Rails project here:
 Feature requests should be discussed on the rails-core mailing list here:
 
 * https://groups.google.com/forum/?fromgroups#!forum/rubyonrails-core
+# react-native-action-cable-add-http-header
