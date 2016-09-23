@@ -2,7 +2,6 @@
 
 - change line in Libraries/RCTWebsocket.xcodeproj/RCTSRWebSocket.m
 ```
-~~~
 - (void)didConnect
 {
   RCTSRLog(@"Connected");
@@ -39,7 +38,6 @@
   [self _writeData:message];
   [self _readHTTPHeader];
 }
-~~~
 ```
 
 
