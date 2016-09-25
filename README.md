@@ -45,7 +45,7 @@
 
 ```
     this.App = {};
-    this.App.cable = ActionCable.createConsumer("wss://localhost:4000/cable","Your COOKIE")
+    this.App.cable = actioncable-add-cookie.createConsumer("wss://localhost:4000/cable","Your COOKIE")
     this.App.room_chat = this.App.cable.subscriptions.create("RoomChannel", {
       connected: () => {
         console.log("connected: action cable")
