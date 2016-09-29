@@ -1,3 +1,9 @@
+# Drepreciated!!
+in actioncable.js
+```
+new WebSocket(this.consumer.url,["actioncable-v1-json", "actioncable-unsupported"],{Cookie: this.consumer.cookie});
+```
+solved add cookie...
 # Intro
 The way of using session-cookie in action cable. This is based on https://github.com/cpunion/react-native-actioncable (Be careful).   When using Fetch(), cookie is automatically added by react-native-cookies( https://github.com/joeferraro/react-native-cookies ). But, action cable is not the case. So, I set cookie manually at the time of websocket handshake . It works. In my case cookie is stored in redux store. 
 
